@@ -10,6 +10,11 @@ import Home from './Comphonents/Home/Home';
 import Header from './Comphonents/Header/Header';
 import Projects from './Comphonents/Projects/Projects';
 import Contact from './Comphonents/Contact/Contact';
+import Blogs from './Comphonents/Blogs/Blogs';
+import About from './Comphonents/About/About';
+import DetailsAirplane from './Comphonents/Details/DetailsAirplane';
+import DetailsTourism from './Comphonents/Details/DetailsTourism';
+import DetailsMedical from './Comphonents/Details/DetailsMedical';
 
 function App() {
   return (
@@ -29,6 +34,21 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route path='/blogs'>
+            <Blogs></Blogs>
+          </Route>
+          <Route path='/about'>
+            <About></About>
+          </Route>
+          <Route path='/airplane'>
+            <DetailsAirplane></DetailsAirplane>
+          </Route>
+          <Route path='/tourism'>
+            <DetailsTourism></DetailsTourism>
+          </Route>
+          <Route path='/medical'>
+            <DetailsMedical></DetailsMedical>
           </Route>
         </Switch>
       </Router>
