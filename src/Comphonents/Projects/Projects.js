@@ -80,7 +80,7 @@ const Projects = () => {
                     <br />
                 </Col>
                 <Col sm={6}>
-                    <a href='https://i.ibb.co/XpG8tk9/tourism-home.png'>Live site</a>
+                    <a href='https://ph-assignment-10-7a5fc.firebaseapp.com/'>Live site</a>
                     <br />
                     <a href='https://github.com/ab-atiq/Healthcare-Website'>Server code</a>
                     <br />
