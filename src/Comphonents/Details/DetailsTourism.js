@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 
 const DetailsTourism = () => {
     return (
@@ -21,6 +21,17 @@ const DetailsTourism = () => {
                         <Image fluid style={{ height: '300px' }} src='https://i.ibb.co/TBrrTkF/tourism-home-3.png'></Image>
                     </a>
                 </Col>
+            </Row>
+            <Row className="py-3">
+                <a href='https://tourism-assignment-11-75efb.firebaseapp.com/' target="_blank" rel='noreferrer'>
+                    <Button className='my-2' variant="primary">Live site</Button>
+                </a>
+                <a href='https://github.com/ab-atiq/tourism-client-side' target="_blank" rel='noreferrer'>
+                    <Button className='my-2' variant="primary">Client-side code</Button>
+                </a>
+                <a href='https://github.com/ab-atiq/tourism-server-side' target="_blank" rel='noreferrer'>
+                    <Button className='my-2' variant="primary">Server-side code</Button>
+                </a>
             </Row>
             <Row className='p-5'>
                 <ol type='I' className='text-start'>

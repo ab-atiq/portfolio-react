@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Button, Col, Container, Image, Row } from 'react-bootstrap';
 
 const DetailsAirplane = () => {
     return (
@@ -21,6 +21,17 @@ const DetailsAirplane = () => {
                         <Image fluid style={{ height: '300px' }} src='https://i.ibb.co/rGD785y/airplane-home-3.png'></Image>
                     </a>
                 </Col>
+            </Row>
+            <Row className="py-3">
+                <a href='https://ph-assignment-12.firebaseapp.com/' target="_blank" rel='noreferrer'>
+                    <Button className='my-2' variant="primary">Live site</Button>
+                </a>
+                <a href='https://github.com/ab-atiq/airplane-client-side' target="_blank" rel='noreferrer'>
+                    <Button className='my-2'>Client-side code</Button>
+                </a>
+                <a href='https://github.com/ab-atiq/airplane-server-side' target="_blank" rel='noreferrer'>
+                    <Button className='my-2'>Server-side code</Button>
+                </a>
             </Row>
             <Row className='p-5'>
                 <Col>
