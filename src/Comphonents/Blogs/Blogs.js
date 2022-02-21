@@ -61,6 +61,20 @@ const Blogs = () => {
                     </Link>
                 </Col>
             </Row>
+            <Row className='p-3 mb-3' style={{border:'5px solid blue', borderRadius:'10px'}}>
+                <Col>
+                    <Image fluid style={{ height: '150px' }} src='https://jobsinsweden.se/wp-content/uploads/2020/09/backend-development.png'></Image>
+                </Col>
+                <Col>
+                    <h1>React Blog</h1>
+                    <h4>Know about React</h4>
+                    <Link to='/blogs/backend'>
+                        <Button>
+                            View Details
+                        </Button>
+                    </Link>
+                </Col>
+            </Row>
         </Container>
     );
 };

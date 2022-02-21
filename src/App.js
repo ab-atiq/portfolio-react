@@ -19,6 +19,7 @@ import Html from './Comphonents/Blogs/Html/Html';
 import Css from './Comphonents/Blogs/Css/Css';
 import Js from './Comphonents/Blogs/Js/Js';
 import ReactBlog from './Comphonents/Blogs/React/React';
+import Backend from './Comphonents/Blogs/Backend/Backend';
 
 function App() {
   return (
@@ -53,6 +54,9 @@ function App() {
           </Route>
           <Route path='/blogs/react'>
             <ReactBlog></ReactBlog>
+          </Route>
+          <Route path='/blogs/backend'>
+            <Backend></Backend>
           </Route>
           <Route path='/about'>
             <About></About>
